@@ -1,0 +1,45 @@
+{
+  "start": {
+    "axis": "Locus",
+    "question": "Looking back at today's biggest hurdle, how do you perceive it?",
+    "options": {
+      "It was an external situation that blocked me.": "locus_victim",
+      "It was a challenge I had a hand in navigating.": "locus_victor"
+    }
+  },
+  "locus_victim": {
+    "axis": "Orientation",
+    "question": "When things felt out of your hands, what was your primary focus?",
+    "options": {
+      "What I felt I was owed but didn't receive.": "orientation_entitlement",
+      "Finding a small way I could still help the team.": "orientation_contribution"
+    }
+  },
+  "locus_victor": {
+    "axis": "Orientation",
+    "question": "Since you felt in control, how did you use that energy?",
+    "options": {
+      "I focused on completing my assigned tasks perfectly.": "orientation_entitlement",
+      "I looked for gaps where I could add extra value.": "orientation_contribution"
+    }
+  },
+  "orientation_contribution": {
+    "axis": "Radius",
+    "question": "When you contributed today, whose impact were you thinking about?",
+    "options": {
+      "How it would improve my own standing or growth.": "radius_self",
+      "How it would make the team's collective goal easier.": "radius_altro"
+    }
+  },
+  "orientation_entitlement": {
+    "axis": "Radius",
+    "question": "In moments of frustration, who occupied your thoughts most?",
+    "options": {
+      "My own stress and workload.": "radius_self",
+      "The pressure my colleagues were also under.": "radius_altro"
+    }
+  },
+  "summary_node": {
+    "final_notes": "The summary is generated based on the path taken, highlighting the shift from 'Me' to 'Us' and 'Victim' to 'Victor'."
+  }
+}
